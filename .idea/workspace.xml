@@ -9,9 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebe7b7f6-f442-4975-bb7b-270da47b1e6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ThreadExemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParallelStreamExemplo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-advanced/Iteracoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-advanced/Iteracoes.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1xGQJbpiVws2NrHZDyvu4Hbgcry" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
@@ -48,7 +52,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ParallelStreamExemplo">
+    <configuration name="ParallelStreamExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParallelStreamExemplo" />
+      <module name="java-advanced" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadExemplo" />
       <module name="java-advanced" />
@@ -58,12 +69,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParallelStreamExemplo" />
         <item itemvalue="Application.ThreadExemplo" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebe7b7f6-f442-4975-bb7b-270da47b1e6a" name="Default Changelist" comment="" />
+      <created>1631573209150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631573209150</updated>
+    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,5 +110,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1631239045421" />
+    <state width="1323" height="264" key="GridCell.Tab.0.bottom" timestamp="1631586388520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="264" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631586388520" />
+    <state width="1323" height="264" key="GridCell.Tab.0.center" timestamp="1631586388520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="264" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631586388520" />
+    <state width="1323" height="264" key="GridCell.Tab.0.left" timestamp="1631586388520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="264" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631586388520" />
+    <state width="1323" height="264" key="GridCell.Tab.0.right" timestamp="1631586388520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="264" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631586388520" />
   </component>
 </project>
