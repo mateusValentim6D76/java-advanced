@@ -9,7 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebe7b7f6-f442-4975-bb7b-270da47b1e6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ParallelStreamExemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InferenciaExemplo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParallelStreamExemplo">
+  <component name="RunManager" selected="Application.InferenciaExemplo">
+    <configuration name="InferenciaExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InferenciaExemplo" />
+      <module name="java-advanced" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParallelStreamExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ParallelStreamExemplo" />
       <module name="java-advanced" />
@@ -69,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InferenciaExemplo" />
         <item itemvalue="Application.ParallelStreamExemplo" />
         <item itemvalue="Application.ThreadExemplo" />
       </list>
@@ -110,21 +118,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1631239045421" />
-    <state width="1323" height="264" key="GridCell.Tab.0.bottom" timestamp="1631586388520">
+    <state width="1323" height="264" key="GridCell.Tab.0.bottom" timestamp="1631623057796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631586388520" />
-    <state width="1323" height="264" key="GridCell.Tab.0.center" timestamp="1631586388520">
+    <state width="1323" height="264" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631623057796" />
+    <state width="1323" height="264" key="GridCell.Tab.0.center" timestamp="1631623057795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631586388520" />
-    <state width="1323" height="264" key="GridCell.Tab.0.left" timestamp="1631586388520">
+    <state width="1323" height="264" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631623057795" />
+    <state width="1323" height="264" key="GridCell.Tab.0.left" timestamp="1631623057795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631586388520" />
-    <state width="1323" height="264" key="GridCell.Tab.0.right" timestamp="1631586388520">
+    <state width="1323" height="264" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631623057795" />
+    <state width="1323" height="264" key="GridCell.Tab.0.right" timestamp="1631623057796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631586388520" />
+    <state width="1323" height="264" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631623057796" />
   </component>
 </project>
