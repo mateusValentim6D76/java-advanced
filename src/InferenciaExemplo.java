@@ -1,26 +1,55 @@
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLConnection;
 import java.util.stream.Collectors;
 
 public class InferenciaExemplo {
     public static void main(String[] args) throws IOException {
-
-        URL url = new URL("https://docs.oracle.com/javase/10/language/");
-        URLConnection urlConnection = url.openConnection();
-
-        //getInputStream - Captura todo a entrada de dados, fluxo de dados, todos os bytes e coloca dentro do InputStream
-        //InputStreamReader - Trabalhando com Reader ao inves de Stream
-        // BufferedReader - Transforma os dados capturados em linhas
-         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
-        System.out.println(bufferedReader.lines().collect(Collectors.joining()).replaceAll(">", ">\n"));
+        printarNomeCompleto("Mateus", "Valentim");
     }
 
-    public void testar(){
+    //Consegue
 
+    // variaveis local inicializadas
+    // variavel suporte do enhaced for
+    // variavel suporte do for iterativo
+    // variavel try with resource
+
+    //Nao consegue
+
+    // var nao pode ser utilizado em nivel de classe
+    // var nao pode ser utilizado como parametro
+    // var nao pode ser utilizada em variaveis locais nao inicializadas
+
+    private static void connectAndPrintURLJavaOracle()  {
+        try {
+            var url = new URL("https://docs.oracle.com/javase/10/language/");
+            var urlConnection = url.openConnection();
+
+            try(var bufferedReader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()))){
+                System.out.println(bufferedReader.lines().collect(Collectors.joining()).replaceAll(">", ">\n"));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void printarNomeCompleto(String nome, String sobrenome){
+        var nomeCompleto = String.format("%s %s", nome, sobrenome);
+        System.out.println(nomeCompleto);
+
+    }
+
+    public static void printarSoma(int... numeros) {
+        int soma;
+        if (numeros.length > 0) {
+            soma = 0;
+            for (var numero = 0; numero < numeros.length; numero++) {
+                soma += numeros[numero];
+            }
+
+            System.out.println("A soma e ::: " + soma);
+        }
     }
 }

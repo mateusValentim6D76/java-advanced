@@ -9,8 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebe7b7f6-f442-4975-bb7b-270da47b1e6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InferenciaExemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-advanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-advanced.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-advanced/Consumers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-advanced/Consumers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-advanced/Iteracoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-advanced/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-advanced/Predicados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-advanced/Suplidores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InferenciaExemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InferenciaExemplo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +50,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -53,7 +64,9 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.InferenciaExemplo">
-    <configuration name="InferenciaExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="InferenciaExemplo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="InferenciaExemplo" />
       <module name="java-advanced" />
       <method v="2">
@@ -74,9 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.InferenciaExemplo" />
+      <item itemvalue="Application.ParallelStreamExemplo" />
+      <item itemvalue="Application.ThreadExemplo" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InferenciaExemplo" />
         <item itemvalue="Application.ParallelStreamExemplo" />
         <item itemvalue="Application.ThreadExemplo" />
       </list>
@@ -110,6 +127,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1629980854269" />
+    <state x="137" y="14" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631759284347">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="14" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1631759284347" />
     <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1631239875127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -118,6 +139,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1631239045421" />
+    <state x="484" y="119" key="FileChooserDialogImpl" timestamp="1631759523317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1631759523317" />
     <state width="1323" height="264" key="GridCell.Tab.0.bottom" timestamp="1631623057796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -134,5 +159,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="264" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631623057796" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1631759644205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1631759644205" />
+    <state x="413" y="125" key="extract.method.dialog" timestamp="1631758867089">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="125" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1631758867089" />
   </component>
 </project>
